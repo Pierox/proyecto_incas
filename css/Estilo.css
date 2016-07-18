@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:#000;
+font-family: Arial,Verdana, sans-serif;
+font-size:14px;
+}
+
+#Santillana_present{
+width: 983px;
+height: 690px;
+position: relative;
+overflow: hidden;
+background: #000;
+margin: 0 auto 0 auto;
+}
+
+
+
+.escena
+{
+	width:983px;
+	height:690px;
+	position:absolute;
+	margin: 0 auto 0 auto;
+	background: #000;
+	display:none;
+}
+
+.fondo
+{
+	width:983px;
+	height:690px;
+	position:absolute;
+	margin: 0 auto 0 auto;
+}
+
+
+#intro{
+	width:983px;
+	height:690px;
+	display:none;
+	background-image:url(../img/intro.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin:0px 0px;
+	background-color:#fff;
+}
+
+
+
+
+/***********************/
+/*    INTRODUCCION     */
+/***********************/
+
+#machu
+{
+	position: absolute;
+	width: 983px;
+	height: 690px;
+	background-image: url(../img/machupicchu.png);
+}
+
+#cuadro_incas
+{
+	position: absolute;
+	width: 983px;
+	height: 25px;
+	top: 214px;
+	left: 0px;
+	background: #000;
+	opacity: 0.8;
+	padding: 5% 0;
+	display: none;
+}
+
+#texto_incas
+{
+	position: absolute;
+	top: 263px;
+	left: 437px;
+	color: #fff;
+	font-size: 18px;
+	display: none;
+	font-weight:bold;
+}
+
+#boca
+{
+	position: absolute;
+	top: 248px;
+	left: 396px;
+	font-size: 56px;
+	color: #4DAFFF;
+	display: none;
+}
+
+#rojo1
+{
+	position:absolute;
+	background-image:url(../img/rojo1.png);
+	width:41px;
+	height:39px;
+	top:322px;
+	left:361px;
+	display:none;
+}
+
+#cuadrito1
+{
+	position:absolute;
+	background-image:url(../img/cuadrado.png);
+	width:94px;
+	height:40px;
+	top:314px;
+	left:367px;
+	display:none;
+}
+
+#tumi
+{
+	position:absolute;
+	background-image:url(../img/tumi.png);
+	width:763px;
+	height:128px;
+	top:323px;
+	left:-130px;
+}
+
+#inca1
+{
+	width:341px;
+	height:344px;
+	position:absolute;
+	background-image:url(../img/inca1.png);
+	top:194px;
+	left:-341px;
+}
+
+#rojo2
+{
+	width:177px;
+	height:369px;
+	position:absolute;
+	background-image:url(../img/rojo2.png);
+	top:154px;
+	left:287px;
+	display:none;
+}
+
+#medida
+{
+	width:290px;
+	height:358px;
+	position:absolute;
+	background-image:url(../img/medida.png);
+	top:163px;
+	left:168px;
+	display:none;
+}
+
+#piedra1
+{
+	background-image:url(../img/piedra1.png);
+	width:983px;
+	height:242px;
+	position:absolute;
+	left:0px;
+	top:577px;
+}
+
+#piedra2
+{
+	background-image:url(../img/piedra2.png);
+	width:983px;
+	height:458px;
+	position:absolute;
+	left:0px;
+	top:580px;
+}
+
+#piedra3
+{
+	background-image:url(../img/piedra3.png);
+	width:983px;
+	height:462px;
+	position:absolute;
+	left:0px;
+	top:695px;
+}
+
+#guardia1
+{
+	background-image:url(../img/guardia1.png);
+	width:172px;
+	height:307px;
+	position:absolute;
+	top:362px;
+	left:104px;
+	display:none;
+}
+
+#guardia2
+{
+	background-image:url(../img/guardia2.png);
+	width:172px;
+	height:307px;
+	position:absolute;
+	top:52px;
+	left:320px;
+	display:none;
+}
+
+#guardia3
+{
+	background-image:url(../img/guardia1.png);
+	width:172px;
+	height:307px;
+	position:absolute;
+	top:77px;
+	left:64px;
+	display:none;
+}
+
+#guardia4
+{
+	background-image:url(../img/guardia2.png);
+	width:172px;
+	height:307px;
+	position:absolute;
+	top:103px;
+	left:193px;
+	display:none;
+}
+
+
+#guardia5
+{
+	background-image:url(../img/guardia1.png);
+	width:172px;
+	height:307px;
+	position:absolute;
+	top:88px;
+	left:92px;
+	display:none;
+}
+
+#lineas
+{
+	background-image:url(../img/lineas.png);
+	width:204px;
+	height:436px;
+	position:absolute;
+	top:189px;
+	left:257px;
+	display:none;
+}
+
+#quipu
+{
+	background-image:url(../img/quipu.png);
+	width:1593px;
+	height:500px;
+	position:absolute;
+	top:150px;
+	left:-505px;
+}
+
+#espanol
+{
+	background-image:url(../img/espanol.png);
+	width:221px;
+	height:293px;
+	position:absolute;
+	top:210px;
+	left:-229px;
+}
+
+#escena3
+{
+	background:#000;
+}
+
+#santillana_logo
+{
+	background-image:url(../img/santillana.png);
+	width:177px;
+	height:61px;
+	position:absolute;
+	top:0px;
+	left:800px;
+	display:none;
+}
+
+#repetir{
+	color: #FFF;
+	font-size: 22px;
+	position: absolute;
+	top: 636px;
+	left: 34px;
+	cursor:pointer;	
+	}
+
